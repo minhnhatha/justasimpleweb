@@ -1,0 +1,81 @@
+body{
+    /* position: fixed; */
+    top: 0; left: 0;
+    /* width: 100%; */
+    /* height: 200px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    overflow-y: hidden;
+    background-color: black;
+    margin: 0; /* loại bỏ margin mặc định */
+    height: 100vh; /* chiều cao bằng 100% viewport */
+    /* background-image: url("./images/background6.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-attachment: fixed;
+    background-position: center; */
+}
+#bground{
+    height: 100vh;
+    width: 100vw;
+}
+.GTA-5{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: calc((1vw + 1vh) / 2 + 20px);
+    margin-top: 10px;
+}
+.can_giua {
+    margin-top: 45vh;
+    color: white;
+}
+#fade-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none; /* để không cản trở tương tác */
+    transition: opacity 1s ease; /* thời gian fade */
+    z-index: 9999;
+}
+.NoiDung{
+    color: white;
+    font-size: calc((1vw + 1vh) / 2 + 20px);
+    font-family: 'Bungee', sans-serif;
+    margin-top: 10px;
+}
+#image-screen{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('././images/vn_flag.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 9998;
+}
+#video-screen{
+    text-align: center;
+}
+#myVideo{
+    height: 100vh;
+}
+#EnterName{
+    width: 50px;
+    color:yellow;
+    margin-top: 1vh;
+    background: linear-gradient(to bottom, #e74c3c 50%, #3498db 50%);
+}
+/* #tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  } */
